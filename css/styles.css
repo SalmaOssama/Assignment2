@@ -1,0 +1,88 @@
+
+#header-nav h1{
+
+	font-size: 1.5em;
+	font-style: italic;
+	font-family: Didot;
+	text-transform: capitalize;
+	font-weight: Bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	color:black;
+
+}
+
+*{
+	box-sizing: border-box;
+}
+
+p{
+	padding: 20px;
+}
+
+section p{
+
+	height: 100%;
+	background-color: #E8DAEF;
+	color: black;
+	font-size: 24px; 
+	font-family: Brush Script MT;
+}
+
+#category-title{
+	color: grey;
+	font-family: Brush Script MT;
+}
+
+#menu-container{
+	width:100%;
+
+}
+
+#main-title{
+	margin-bottom: 30px;
+	font-family: Brush Script MT;
+}
+
+#header-nav{
+	background-color: #E8DAEF;
+}
+
+#button-toggle:hover{
+	background-color: black;
+}
+
+
+hr{
+border: 0;
+}
+
+@media (max-width:767px) {
+
+
+#collapsable-nav{
+
+	background-color: grey;
+}
+
+#category-list-item{
+	color:#E8DAEF;
+}
+
+.nav-list{
+	padding: 0;
+	margin:0;
+}
+
+#list-item:hover{
+	background-color: black;
+}
+
+
+
+
+
+}
+
